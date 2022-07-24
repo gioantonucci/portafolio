@@ -7,7 +7,7 @@ import GIOFLIX from '../images/GIOFLIX.png'
 
 function Projects() {
   return (
-    <section className="text-gray-600  bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 body-font">
+    <section className="text-gray-600 font-Over  bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap w-full mb-20">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">

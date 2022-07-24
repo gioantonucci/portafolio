@@ -3,7 +3,7 @@ import Gio from '../images/Gio.png'
 function About() {
   return (
     
-    <section className="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
+    <section className="font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
         <div className="container px-6 py-8 mx-auto">
             <div className="items-center lg:flex">
                 <div className="lg:w-1/2">

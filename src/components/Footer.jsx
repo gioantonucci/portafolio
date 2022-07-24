@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     
-    <footer className="flex flex-col items-center justify-between px-6 py-4 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 sm:flex-row">
+    <footer className="font-Over flex flex-col items-center justify-between px-6 py-4 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 sm:flex-row">
     <a href="#" className="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">G/A</a>
     
     <p className="py-2 text-gray-800 dark:text-white sm:py-0">Hecho con ♥ por Giovanna Antonucci</p>
