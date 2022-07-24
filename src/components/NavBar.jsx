@@ -1,15 +1,12 @@
 import React from "react";
-import { useEffect } from 'react'
-import { themeChange } from 'theme-change'
-
-
+import { useEffect } from "react";
+import { themeChange } from "theme-change";
+import { Link, animateScroll} from "react-scroll";
 
 function NavBar() {
-
   useEffect(() => {
-    themeChange(false)
-    
-  }, [])
+    themeChange(false);
+  }, []);
 
   return (
     <div className="navbar bg-base-100">
@@ -32,43 +29,120 @@ function NavBar() {
             </svg>
           </label>
           <ul
-            tabindex="0"
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <li>
-              <a>Sobre mi</a>
+           <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Sobre Mi
+              </Link>
             </li>
-            <li tabindex="0">
-              <a>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 Skills
-              </a>
+              </Link>
             </li>
-            <li>
-              <a>Proyectos</a>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Proyectos
+              </Link>
             </li>
-            <li>
-            <a>Contacto</a>
-          </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+               Contacto
+              </Link>
+            </li>
           </ul>
         </div>
+        <Link
+        activeClass="active"
+        to="header"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+        >
         <a className="btn btn-ghost normal-case text-xl">G/A</a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">
-          <li>
-            <a>Sobre mi</a>
-          </li>
-          <li>
-            <a>
-              Skills
-             </a>
-          </li>
-          <li>
-            <a>Proyectos</a>
-          </li>
-          <li>
-            <a>Contacto</a>
-          </li>
+        <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Sobre Mi
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Skills
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Proyectos
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+               Contacto
+              </Link>
+            </li>
+           
         </ul>
       </div>
       <div className="navbar-end">

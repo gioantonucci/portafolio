@@ -2,8 +2,8 @@ import React from 'react'
 
 function Skills() {
   return (
-    <div>
-      sssss
+    <div className="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
+      
     </div>
   )
 }
