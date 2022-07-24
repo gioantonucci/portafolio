@@ -49,7 +49,7 @@ function NavBar() {
                 to="skills"
                 spy={true}
                 smooth={true}
-                offset={-70}
+            
                 duration={500}
               >
                 Skills
@@ -61,7 +61,7 @@ function NavBar() {
                 to="projects"
                 spy={true}
                 smooth={true}
-                offset={-70}
+               
                 duration={500}
               >
                 Proyectos
@@ -73,7 +73,7 @@ function NavBar() {
                 to="contact"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                
                 duration={500}
               >
                Contacto
@@ -86,7 +86,7 @@ function NavBar() {
         to="header"
         spy={true}
         smooth={true}
-        offset={-70}
+       
         duration={500}
         >
         <a className="btn btn-ghost normal-case text-xl">G/A</a>
@@ -100,7 +100,7 @@ function NavBar() {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={-70}
+               
                 duration={500}
               >
                 Sobre Mi
@@ -112,7 +112,7 @@ function NavBar() {
                 to="skills"
                 spy={true}
                 smooth={true}
-                offset={-70}
+               
                 duration={500}
               >
                 Skills
@@ -124,7 +124,7 @@ function NavBar() {
                 to="projects"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                
                 duration={500}
               >
                 Proyectos
@@ -136,7 +136,7 @@ function NavBar() {
                 to="contact"
                 spy={true}
                 smooth={true}
-                offset={-70}
+               
                 duration={500}
               >
                Contacto
