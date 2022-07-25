@@ -1,10 +1,19 @@
 import React from 'react'
+import { Link } from "react-scroll";
 
 function Footer() {
   return (
     
     <footer className="font-Over flex flex-col items-center justify-between px-6 py-4 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 sm:flex-row">
-    <a href="#" className="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">G/A</a>
+    <Link
+          activeClass="active"
+          to="header"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
+          <button className="btn btn-ghost text-gray-800 dark:text-white normal-case text-xl">G/A</button>
+        </Link>
     
     <p className="py-2 text-gray-800 dark:text-white sm:py-0">Hecho con ♥ por Giovanna Antonucci</p>
 
