@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-
+import pdf from "../Utils/Antonucci-Giovanna-FullStackDev.pdf"
 function NavBar() {
   
 
@@ -106,7 +106,11 @@ function NavBar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <button className="btn">Descargar CV</button>
+        <button className="btn">
+        <a href={pdf} target="_blank" rel="noopener noreferrer" download="GIOVANNA_ANTONUCCI_CV_FULLSTACKWEB"> 
+       Descargar CV
+        </a>
+        </button>
       </div>
     </div>
   );
