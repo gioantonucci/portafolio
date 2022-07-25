@@ -13,46 +13,48 @@ function Contact() {
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
           <div className="flex flex-wrap -m-2">
             <div className="p-2 w-1/2">
-              <div class="form-control w-full max-w-xs">
-                <label class="label">
-                  <span class="label-text">Tu nombre</span>
+              <div className="form-control w-full max-w-xs">
+                <label className="label">
+                  <span className="label-text">Tu nombre</span>
                 </label>
                 <input
+                  name="nombre"
                   type="text"
                   placeholder="Tu nombre..."
-                  class="input input-bordered w-full max-w-xs"
+                  className="input input-bordered w-full max-w-xs"
                 />
               </div>
             </div>
             <div className="p-2 w-1/2">
-            <div class="form-control w-full max-w-xs">
-                <label class="label">
-                  <span class="label-text">Tu mail</span>
+              <div className="form-control w-full max-w-xs">
+                <label className="label">
+                  <span className="label-text">Tu mail</span>
                 </label>
                 <input
+                  name="mail"
                   type="text"
                   placeholder="Tu mail..."
-                  class="input input-bordered w-full max-w-xs"
+                  className="input input-bordered w-full max-w-xs"
                 />
               </div>
             </div>
             <div className="p-2 w-full">
               <div className="relative">
-                <label className='label'
-                  for="message"
-                >
+                <label className="label" htmlFor="message">
                   Mensaje
                 </label>
                 <textarea
                   placeholder="Tu mensaje ♥"
                   id="message"
-                  name="message"
+                  name="mensaje"
                   className="w-full textarea textarea-primary"
                 ></textarea>
               </div>
             </div>
             <div className="p-2 w-full">
-              <button className="flex mx-auto btn btn-primary">Enviar</button>
+              <button type="submit" className="flex mx-auto btn btn-primary">
+                Enviar
+              </button>
             </div>
           </div>
         </div>
