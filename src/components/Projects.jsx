@@ -12,7 +12,7 @@ function Projects() {
         <div className="flex flex-wrap w-full mb-20">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
             <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100">
-              MIS PROYECTOS
+              PROYECTOS
             </h2>
           </div>
         </div>

@@ -41,7 +41,7 @@ function About() {
                 <div className="mt-8 lg:mt-0 lg:w-1/2">
                     <div className="flex items-center justify-center lg:justify-end">
                         <div className="max-w-lg">
-                            <img className="object-cover object-center w-full h-72 rounded-full shadow" src={Gio} alt=""/>
+                            <img className="object-cover object-center w-full h-80 rounded-full shadow" src={Gio} alt=""/>
                         </div>
                     </div>
                     

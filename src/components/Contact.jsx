@@ -1,27 +1,22 @@
 import React from "react";
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2'
 
-function validate(input) {
-  let errors = {};
-
-
-  if (!input.name || !/^[A-Z]+[A-Za-z0-9\s]+$/g.test(input.name)){
-    errors.name = "The first letter must be uppercase";
-} else {
-  errors.name = "Done!"
-}
-
-return errors
-}
 
 function Contact() {
- 
+
+
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm("service_5sxmgy9","template_20k59r4", e.target,'G0qwOBeBIPLA6LlsE')
     .then(response => console.log(response))
     .catch(error => console.log(error))
- 
+    Swal.fire({
+      title: 'Gracias!',
+      text: 'Tu mensaje fue enviado con exito ♥',
+      icon: 'success',
+      confirmButtonText: 'Ok!'
+    })
   }
   
   return (
