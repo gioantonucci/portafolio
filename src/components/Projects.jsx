@@ -44,21 +44,21 @@ function Projects() {
             </p>
             <div className="card-actions justify-end">
               <a target="_blank" href="https://pg-rgb-store-three.vercel.app/">
-                <button class="btn btn-primary">LINK AL DEPLOY</button>
+                <button className="btn btn-primary">LINK AL DEPLOY</button>
               </a>
             </div>
           </div>
         </div>
-        <div class="card mb-5 lg:card-side bg-base-100 shadow-xl">
+        <div className="card mb-5 lg:card-side bg-base-100 shadow-xl">
           <figure>
             <img className="w-96 h-fit" src={GIOFLIX} alt="Gioflix" />
           </figure>
-          <div class="card-body">
-            <h2 class="card-title">GIOFLIX</h2>
+          <div className="card-body">
+            <h2 className="card-title">GIOFLIX</h2>
             <p>Clon de Netflix.</p>
-            <div class="card-actions justify-end">
+            <div className="card-actions justify-end">
               <a target="_blank" href="https://gioflix.vercel.app/">
-                <button class="btn btn-primary">LINK AL DEPLOY</button>
+                <button className="btn btn-primary">LINK AL DEPLOY</button>
               </a>
             </div>
           </div>
