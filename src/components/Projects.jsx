@@ -6,12 +6,10 @@ import GIOFLIX from "../images/GIOFLIX.png";
 function Projects() {
   return (
     <section className="text-gray-600 font-Over  bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="conteiner lg:mx-20 px-5 py-24">
         <div className="flex flex-wrap w-full mb-10">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-            <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100">
-              PROYECTOS
-            </h2>
+          <h1 className="text-4xl font-bold mb-12 text-teal-50">PROYECTOS</h1>
           </div>
         </div>
 

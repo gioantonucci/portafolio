@@ -4,7 +4,7 @@ function Skills() {
   return (
     <section className="text-gray-600 hero min-h-screen font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
       <div className=" px-5 py-24 mx-auto">
-      <h1 className="text-4xl font-bold mb-12 text-teal-50">SKILLS</h1>
+        <h1 className="text-4xl font-bold mb-12 text-teal-50">SKILLS</h1>
         <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-fit">
             <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
@@ -29,7 +29,7 @@ function Skills() {
                   src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
                 />
                 <img
-                className="w-12 h-12"
+                  className="w-12 h-12"
                   alt="REDUX"
                   src="https://seeklogo.com/images/R/redux-logo-9CA6836C12-seeklogo.com.png"
                 ></img>
@@ -46,7 +46,6 @@ function Skills() {
                 Back end
               </h1>
               <div className="flex justify-between">
-              
                 <img
                   alt="POSTGREESQL"
                   src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
@@ -77,11 +76,18 @@ function Skills() {
                   alt="AI"
                   src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg"
                 />
-               <img alt="FIGMA" src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg"/>
                 <img
-                  alt="POSTMAN" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+                  alt="FIGMA"
+                  src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
                 />
-             <img alt ="GIT"src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"/>
+                <img
+                  alt="POSTMAN"
+                  src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+                />
+                <img
+                  alt="GIT"
+                  src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+                />
               </div>
             </div>
           </div>

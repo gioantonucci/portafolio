@@ -1,10 +1,12 @@
 import React from "react";
 import Gio from "../images/Gio.png";
 import pdf from "../Utils/Antonucci-Giovanna-FullStackDev.pdf";
+
 function About() {
   return (
     <div className="hero min-h-screen font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
-      <div className="hero-content flex-col lg:flex-row">
+   
+     <div className="hero-content flex-col lg:flex-row">
         <img src={Gio} className="max-w-xs rounded-lg shadow-2xl" />
         <div>
           <h1 className="text-4xl font-bold text-teal-50">SOBRE MI</h1>

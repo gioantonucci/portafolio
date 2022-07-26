@@ -20,17 +20,15 @@ function Contact() {
   }
   
   return (
-    <section className="font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 text-gray-600 body-font relative">
+    <section className="font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 text-gray-600">
       <div className="container font-Over px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
-          <h2 className="font-Over text-3xl font-bold text-gray-800 dark:text-gray-100">
-            CONTACTO
-          </h2>
+        <h1 className="text-4xl font-bold mb-12 text-teal-50">CONTACTO</h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
         </div>
-        <form id="form " className="form-mail lg:w-1/2 md:w-2/3 mx-auto"  onSubmit={sendEmail}>
+        <form id="form" className="form-mail lg:w-1/2 md:w-2/3 mx-auto"  onSubmit={sendEmail}>
           <div className="flex flex-wrap -m-2">
-            <div className="p-2 w-1/2">
+            <div className="w-6/12">
               <div className="form-control w-full max-w-xs">
                 <label className="label">
                   <span className="label-text">Tu nombre</span>
@@ -44,7 +42,7 @@ function Contact() {
                 />
               </div>
             </div>
-            <div className="p-2 w-1/2">
+            <div className=" w-6/12">
               <div className="form-control w-full max-w-xs">
                 <label className="label">
                   <span className="label-text">Tu mail</span>
