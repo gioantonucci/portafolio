@@ -5,13 +5,13 @@ function About() {
   return (
     <div className="hero min-h-screen font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
       <div className="hero-content flex-col lg:flex-row">
-        <img src={Gio} className="max-w-sm rounded-lg shadow-2xl" />
+        <img src={Gio} className="max-w-xs rounded-lg shadow-2xl" />
         <div>
-          <h1 className="text-4xl font-bold">Full Stack Web Dev</h1>
+          <h1 className="text-4xl font-bold text-teal-50">SOBRE MI</h1>
           <p className="py-10">
             Después de buscar por años una carrera que me apasione, me encontré
             con la programación y en ella encontré una fusión de lógica y diseño
-            que son dos de mis cosas favoritas. Después de mucho esfuerzo me
+            que son dos de mis cosas favoritas. Luego de mucho esfuerzo, me
             recibí de Full Stack Web Developer de Henry Bootcamp este año. Me
             oriento al Front-end y estoy empezando en el mundo del diseño UX/UI.
           </p>
