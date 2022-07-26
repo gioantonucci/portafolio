@@ -9,7 +9,7 @@ function Projects() {
       <div className="conteiner lg:mx-20 px-5 py-24">
         <div className="flex flex-wrap w-full mb-10">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-          <h1 className="text-4xl font-bold mb-12 text-teal-50">PROYECTOS</h1>
+          <h1 className="text-4xl font-bold  mb-12 text-teal-50">PROYECTOS</h1>
           </div>
         </div>
 
