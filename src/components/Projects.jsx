@@ -13,7 +13,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="card mb-5 lg:card-side bg-base-100 shadow-xl">
+        <div className="card mb-5 bg-opacity-75 lg:card-side bg-base-100 shadow-xl">
           <figure>
             <img className="w-96 h-fit" src={PI} alt="Proyecto individual" />
           </figure>
@@ -33,7 +33,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="card mb-5 lg:card-side bg-base-100 shadow-xl">
+        <div className="card bg-opacity-75 mb-5 lg:card-side bg-base-100 shadow-xl">
           <figure>
             <img className="w-96 h-fit " src={PG} alt="Proyecto grupal" />
           </figure>
@@ -49,13 +49,13 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="card mb-5 lg:card-side bg-base-100 shadow-xl">
+        <div className="card bg-opacity-75 mb-5 lg:card-side bg-base-100 shadow-xl">
           <figure>
             <img className="w-96 h-fit" src={GIOFLIX} alt="Gioflix" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">GIOFLIX</h2>
-            <p>Clon de Netflix.</p>
+            <p>Clon de Netflix. Realizado para practicar tecnologías.</p>
             <div className="card-actions justify-end">
               <a target="_blank" href="https://gioflix.vercel.app/">
                 <button className="btn btn-primary">LINK AL DEPLOY</button>

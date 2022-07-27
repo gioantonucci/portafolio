@@ -11,7 +11,7 @@ function Skills() {
               <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                 Front End
               </h1>
-              <div className="flex justify-between">
+              <div className="flex justify-around">
                 <img
                   alt="HTML"
                   src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"
@@ -45,7 +45,7 @@ function Skills() {
               <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                 Back end
               </h1>
-              <div className="flex justify-between">
+              <div className="flex justify-around">
                 <img
                   alt="POSTGREESQL"
                   src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
@@ -71,7 +71,7 @@ function Skills() {
               <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                 Other
               </h1>
-              <div className="flex justify-between">
+              <div className="flex justify-around">
                 <img
                   alt="AI"
                   src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg"

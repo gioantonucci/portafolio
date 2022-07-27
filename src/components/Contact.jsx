@@ -39,7 +39,7 @@ function Contact() {
         </div>
         
   <div className="container px-5 py-5 ">
-    <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 mx-auto w-full mt-10 md:mt-0 shadow-md">
+    <div className="lg:w-1/3 md:w-1/2 bg-opacity-75 bg-white rounded-lg p-8 mx-auto w-full mt-10 md:mt-0 shadow-md">
       <p className="leading-relaxed mb-5 text-gray-600">Cualquier duda, feedback o propuesta, podes hacerla desde acá ♥</p>
       <form onSubmit={sendEmail}>
       <div className="relative mb-4">
