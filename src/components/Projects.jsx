@@ -20,7 +20,7 @@ function Projects() {
           <div className="card-body">
             <h2 className="card-title">DOGS APP</h2>
             <p>
-              Proyectyo indiviudal para Henry Bootcamp. Single Page App que
+              Proyecto indiviudal para Henry Bootcamp. Single Page App que
               consume una API.
             </p>
             <div className="card-actions justify-end">

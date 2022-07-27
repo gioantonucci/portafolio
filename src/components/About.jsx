@@ -11,11 +11,12 @@ function About() {
         <div>
           <h1 className="text-4xl font-bold text-white">SOBRE MI</h1>
           <p className="py-10">
-            Después de buscar por años una carrera que me apasione, me encontré
-            con la programación y en ella encontré una fusión de lógica y diseño
-            que son dos de mis cosas favoritas. Luego de mucho esfuerzo, me
-            recibí de Full Stack Web Developer de Henry Bootcamp este año. Me
-            oriento al Front-end y estoy empezando en el mundo del diseño UX/UI.
+            Hola! Soy Giovanna.
+            Estudié 3 años de Diseño en Comunicación Visual por lo que tengo una fuerte base
+            de diseño, hasta que me encontré con la programación y en ella descubrí
+            una fusión de lógica y diseño: dos cosas que me apasionan. 
+            Luego de mucho esfuerzo, me recibí de Full Stack Web Developer en Henry Bootcamp este año.
+            
           </p>
           <div className="flex items-center mt-6 -mx-2">
             <a
