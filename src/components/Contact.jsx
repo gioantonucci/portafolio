@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2'
 
 
 function Contact() {
+ 
 
+  const [name, setName] = useState('')
+  const [mail, setMail] = useState('')
+  const [message, setMessage] = useState('')
 
+  // const handleSubmit = e => {
+  //   e.preventDefault();
+  //   setName('');
+  //   setMail('');
+  //   setMessage('');
+  // }
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm("service_5sxmgy9","template_20k59r4", e.target,'G0qwOBeBIPLA6LlsE')
@@ -17,10 +27,13 @@ function Contact() {
       icon: 'success',
       confirmButtonText: 'Ok!'
     })
+    setName('');
+    setMail('');
+    setMessage('');
   }
   
   return (
-    <section className="h-screen font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
+    <section className="z-50 font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
     <div className="px-5 py-24 mx-auto">
         <h1 className="text-4xl font-bold lg:ml-20 text-white">CONTACTO</h1>
         </div>
@@ -31,7 +44,10 @@ function Contact() {
       <form onSubmit={sendEmail}>
       <div className="relative mb-4">
         <label className="label-text">Tu nombre</label>
-              <input name="nombre"
+              <input 
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+              name="nombre"
                   type="text"
                   placeholder="Tu nombre..."
                   className="input lg:ml-2 input-bordered w-full max-w-xs"
@@ -40,8 +56,10 @@ function Contact() {
       <div className="relative mb-4">
         <label className="label-text">Tu mail</label>
         <input
+        value={mail}
+        onChange={(e) => setMail(e.target.value)}
          name="mail"
-         type="text"
+         type="email"
          placeholder="Tu mail..."
          className="input input-bordered lg:ml-2 w-full max-w-xs"
          required></input>
@@ -49,6 +67,9 @@ function Contact() {
       <div className="relative mb-4">
         <label className="label-text" htmlFor="message">Tu mensaje</label>
               <textarea
+              type="text"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
               placeholder="Tu mensaje ♥"
               id=""
               name="mensaje"
