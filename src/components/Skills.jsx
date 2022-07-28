@@ -13,7 +13,7 @@ import { SiRedux, SiPostman, SiSequelize } from "react-icons/si";
 
 function Skills() {
   return (
-    <section className="h-screen font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
+    <section className="font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
       <div className=" p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-8">
         <div className="px-5 py-24 mx-auto">
           <h1 className="text-4xl font-bold lg:ml-20 text-white">SKILLS</h1>
