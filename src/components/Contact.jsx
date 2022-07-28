@@ -73,7 +73,7 @@ function Contact() {
               placeholder="Tu mensaje ♥"
               id=""
               name="mensaje"
-              className="w-full textarea textarea-primary"
+              className="w-full h-52 resize-none textarea textarea-primary"
               required></textarea>
       </div>
       <button type="submit" className="flex mx-auto btn btn-primary">
