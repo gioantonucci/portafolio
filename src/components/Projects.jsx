@@ -2,6 +2,7 @@ import React from "react";
 import PI from "../images/PIDOGS.png";
 import PG from "../images/PGRGB.png";
 import GIOFLIX from "../images/GIOFLIX.png";
+import PF from "../images/PORTFOLIO.jpg"
 
 function Projects() {
   return (
@@ -58,6 +59,22 @@ function Projects() {
             <p>Clon de Netflix. Realizado para practicar tecnologías.</p>
             <div className="card-actions justify-end">
               <a target="_blank" href="https://gioflix.vercel.app/">
+                <button className="btn btn-primary">LINK AL DEPLOY</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="card bg-opacity-75 mb-5 lg:card-side bg-base-100 shadow-xl">
+          <figure>
+            <img className="w-96 h-fit " src={PF} alt="Proyecto grupal" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">PORTFOLIO</h2>
+            <p>
+              Página personal dedicada a mostrar proyectos y skills.
+            </p>
+            <div className="card-actions justify-end">
+              <a target="_blank" href="https://gioantonucci.vercel.app/">
                 <button className="btn btn-primary">LINK AL DEPLOY</button>
               </a>
             </div>
