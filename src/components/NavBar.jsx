@@ -118,7 +118,7 @@ function NavBar() {
       <div className="navbar-end">
         <ul className="menu mr-5 menu-horizontal p-0">
           <li tabIndex="0">
-            <a>
+            <a href="Language">
               <TbLanguage className="w-full h-full" />
               <svg
                 className="fill-current"
@@ -138,7 +138,7 @@ function NavBar() {
                 duration={500}
               >
                 <li className="nav-item" onClick={() => lang.setLang("en-US")}>
-                  <a>
+                  <a href="Ingles">
                     <FormattedMessage id="button.en" defaultMessage="Inglés" />
                   </a>
                 </li>
@@ -150,7 +150,7 @@ function NavBar() {
                 duration={500}
               >
                 <li className="nav-item" onClick={() => lang.setLang("es-ES")}>
-                  <a>
+                  <a href="Español">
                     <FormattedMessage id="button.es" defaultMessage="Español" />
                   </a>
                 </li>

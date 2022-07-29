@@ -33,6 +33,7 @@ function Projects() {
             <div className="card-actions justify-end">
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://pi-dogs-gioantonucci.vercel.app/"
               >
                 <button className="btn btn-primary uppercase"><FormattedMessage
@@ -53,7 +54,7 @@ function Projects() {
             id="description.rgb" defaultMessage="Proyecto grupal para Henry Bootcamp. E-commerce de tecnología. Hecha con JS, HTML, Tailwind, React, Redux, NodeMailer, Passportjs, auth0, Nodejs, PostgreeSQL entre otras."/>
             </p>
             <div className="card-actions justify-end">
-              <a target="_blank" href="https://pg-rgb-store-three.vercel.app/">
+              <a target="_blank" rel="noopener noreferrer" href="https://pg-rgb-store-three.vercel.app/">
                 <button className="btn btn-primary"><FormattedMessage
             id="button.deploy" defaultMessage="DEPLOY"/></button>
               </a>
@@ -69,7 +70,7 @@ function Projects() {
             <p><FormattedMessage
             id="description.gioflix" defaultMessage="Clon de Netflix. Realizado para practicar tecnologías."/></p>
             <div className="card-actions justify-end">
-              <a target="_blank" href="https://gioflix.vercel.app/">
+              <a target="_blank" rel="noopener noreferrer" href="https://gioflix.vercel.app/">
                 <button className="btn btn-primary"><FormattedMessage
             id="button.deploy" defaultMessage="DEPLOY"/></button>
               </a>
@@ -88,7 +89,7 @@ function Projects() {
             id="description.portfolio" defaultMessage="Página personal dedicada a mostrar proyectos y skills."/>
             </p>
             <div className="card-actions justify-end">
-              <a target="_blank" href="https://gioantonucci.vercel.app/">
+              <a target="_blank" rel="noopener noreferrer" href="https://gioantonucci.vercel.app/">
                 <button className="btn btn-primary"><FormattedMessage
             id="button.deploy" defaultMessage="DEPLOY"/></button>
               </a>

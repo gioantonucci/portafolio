@@ -12,7 +12,7 @@ function About() {
     <div className="z-auto hero min-h-screen font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
    
      <div className="hero-content flex-col lg:flex-row">
-        <img src={Gio} className="max-w-xs rounded-lg shadow-2xl" />
+        <img src={Gio} alt="Just me" className="max-w-xs rounded-lg shadow-2xl" />
         <div>
           <h1 className="text-4xl font-bold uppercase text-white">
             <FormattedMessage
@@ -30,8 +30,9 @@ function About() {
             <a
               className="mx-2"
               target="_blank"
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/giovanna-antonucci/"
-              aria-label="Linkden"
+              ariaLabel="Linkden"
             >
               <svg
                 className="w-10 h-10 text-gray-700 fill-current dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
@@ -45,8 +46,9 @@ function About() {
             <a
               className="mx-2"
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/gioantonucci"
-              aria-label="Github"
+              ariaLabel="Github"
             >
               <svg
                 className="w-10 h-10 text-gray-700 fill-current dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"

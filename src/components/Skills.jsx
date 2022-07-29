@@ -2,7 +2,6 @@ import React from "react";
 import {
   DiJsBadge,
   DiGithubBadge,
-  DiDatabase,
   DiHtml5,
   DiCss3,
   DiNodejsSmall,
