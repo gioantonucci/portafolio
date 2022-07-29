@@ -132,7 +132,7 @@ function NavBar() {
             </a>
             <ul className="p-2 bg-white">
               <Link
-                activeClass="active"
+                activeClass="bordered"
                 spy={true}
                 smooth={true}
                 duration={500}
@@ -144,7 +144,7 @@ function NavBar() {
                 </li>
               </Link>
               <Link
-                activeClass="active"
+                activeClass="bordered"
                 spy={true}
                 smooth={true}
                 duration={500}
