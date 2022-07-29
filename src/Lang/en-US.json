@@ -7,7 +7,7 @@
     "nav.contact": "Contact",
     "about.title": "About me",
     "about.about": "Hi! Im Giovanna. I studied graphic design for three years, so I have a strong foundation in design. Then I discovered programmation and with that, a new world where design and logic are connected: two of the things I love the most! So, I decided to studying in a bootcamp, and I graduated this year as a Full Stack Web Developer!",
-    "about.button": "Download resume",
+    "about.button": "Resume",
     "button.deploy": "Go to deploy",
     "title.dogs": "Dogs app",
     "description.dogs": "Individual proyect doing for Henry Bootcamp. Development a SPA that consumes data from an API. Made with JS, HTML, CSS, React, Redux, Nodejs, PostgreeSQL.",

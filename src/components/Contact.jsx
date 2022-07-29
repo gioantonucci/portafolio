@@ -87,10 +87,10 @@ function Contact() {
               ></input>
             </div>
             <div className="relative mb-4">
-              <label className="label-text" htmlFor="message">
+              <label className="label-text mb-6 " htmlFor="message">
                 <FormattedMessage
                   id="label.message"
-                  defaultMessage="Tu mensaje 💜"
+                  defaultMessage="Tu mensaje💜"
                 />
               </label>
               <textarea
@@ -102,7 +102,7 @@ function Contact() {
                 }
                 id=""
                 name="mensaje"
-                className="w-full h-52 resize-none textarea textarea-primary"
+                className="w-full h-32 resize-none textarea textarea-primary"
                 required
               ></textarea>
             </div>
