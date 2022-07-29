@@ -22,9 +22,9 @@ const LangProvider = ({ children }) => {
   }
 
 
-  
-  const [mensajes, setMensajes] = useState("MensajesEspañol");
-  const [locale, setLocale] = useState("es-ES");
+
+  const [mensajes, setMensajes] = useState(mensajeDefault);
+  const [locale, setLocale] = useState(localeDefault);
 
   const setLang = (language) => {
     switch (language) {
