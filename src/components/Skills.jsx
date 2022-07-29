@@ -8,7 +8,7 @@ import {
   DiPostgresql,
   DiReact,
 } from "react-icons/di";
-import { SiRedux, SiPostman, SiSequelize } from "react-icons/si";
+import { SiRedux, SiPostman, SiExpress, SiSequelize } from "react-icons/si";
 import { FormattedMessage } from "react-intl";
 
 function Skills() {
@@ -44,6 +44,9 @@ function Skills() {
             </div>
             <div className="flex justify-center tooltip tooltip-primary w-1/2 p-6 align-middle md:w-1/3 xl:w-1/4" data-tip="NodeJs">
               <DiNodejsSmall className="hover:text-gray-600 w-12 h-12  fill-current md:mx-12 lg:m-0 text-gray-400" />
+            </div>
+            <div className="flex justify-center tooltip tooltip-primary w-1/2 p-6 align-middle md:w-1/3 xl:w-1/4" data-tip="ExpressJs">
+              <SiExpress className="hover:text-gray-600 w-12 h-12  fill-current md:mx-12 lg:m-0 text-gray-400" />
             </div>
             <div className="flex justify-center tooltip tooltip-primary w-1/2 p-6 align-middle md:w-1/3 xl:w-1/4" data-tip="Sequelize">
               <SiSequelize className="hover:text-gray-600 w-12 h-12  fill-current md:mx-12 lg:m-0 text-gray-400" />

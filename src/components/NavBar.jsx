@@ -1,12 +1,22 @@
 import { Link } from "react-scroll";
 import { TbLanguage } from "react-icons/tb";
-import pdf from "../Utils/Antonucci-Giovanna-FullStackDev.pdf";
-import { React, useContext } from "react";
+import pdf from "../Utils/Giovanna_Antonucci-FullStack-ES.pdf"
+import { React, useContext, useEffect, useState } from "react";
 import { langContext } from "../Context/LangContext";
 import { FormattedMessage } from "react-intl";
+import Loading from '../components/Loading.css'
 
 function NavBar() {
   const lang = useContext(langContext);
+  
+  const [loading, setLoading] = useState(false);
+  
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 500);
+  }, []);
 
   return (
     <div className="navbar sticky top-0 z-50 font-Over bg-base-100">

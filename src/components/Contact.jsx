@@ -71,7 +71,7 @@ function Contact() {
               ></input>
             </div>
             <div className="relative mb-4">
-              <label className="label-text lg:mr-5">
+              <label className="label-text">
                 <FormattedMessage id="label.mail" defaultMessage="Tu mail" />
               </label>
               <input

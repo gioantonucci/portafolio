@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 import { FormattedMessage } from "react-intl";
 import Gio from "../images/Gio.png";
-import pdf from "../Utils/Antonucci-Giovanna-FullStackDev.pdf";
+import pdf from "../Utils/Giovanna_Antonucci-FullStack-ES.pdf"
 import { langContext } from "../Context/LangContext";
 
 function About() {
