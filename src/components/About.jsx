@@ -1,21 +1,29 @@
-import React from "react";
+import React, {useContext} from "react";
+import { FormattedMessage } from "react-intl";
 import Gio from "../images/Gio.png";
 import pdf from "../Utils/Antonucci-Giovanna-FullStackDev.pdf";
+import { langContext } from "../Context/LangContext";
 
 function About() {
+
+  const idioma = useContext(langContext)
+  console.log(idioma.setLang)
   return (
     <div className="z-auto hero min-h-screen font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
    
      <div className="hero-content flex-col lg:flex-row">
         <img src={Gio} className="max-w-xs rounded-lg shadow-2xl" />
         <div>
-          <h1 className="text-4xl font-bold text-white">SOBRE MI</h1>
+          <h1 className="text-4xl font-bold uppercase text-white">
+            <FormattedMessage
+          id="about.title"
+          defaultMessage="SOBRE MI"
+          /></h1>
           <p className="py-10">
-            Hola! Soy Giovanna.
-            Estudié 3 años de Diseño en Comunicación Visual por lo que tengo una fuerte base
-            de diseño, hasta que me encontré con la programación y en ella descubrí
-            una fusión de lógica y diseño: dos cosas que me apasionan. 
-            Luego de mucho esfuerzo, me recibí de Full Stack Web Developer en Henry Bootcamp este año.
+          <FormattedMessage
+          id="about.about"
+          defaultMessage="Hola! Soy Giovanna. Estudié 3 años de Diseño en Comunicación Visual por lo que tengo una fuerte base de diseño, hasta que me encontré con la programación y en ella descubrí una fusión de lógica y diseño: dos cosas que me apasionan. Luego de mucho esfuerzo, me recibí de Full Stack Web Developer en Henry Bootcamp este año."
+          />
             
           </p>
           <div className="flex items-center mt-6 -mx-2">
@@ -55,7 +63,10 @@ function About() {
                 rel="noopener noreferrer"
                 download="GIOVANNA_ANTONUCCI_CV_FULLSTACKWEB"
               >
-                Descargar CV
+                  <FormattedMessage
+          id="about.button"
+          defaultMessage="Descargar CV"
+          />
               </a>
             </button>
           </div>

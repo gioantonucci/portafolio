@@ -1,4 +1,5 @@
 import React from 'react'
+import { FormattedMessage } from 'react-intl';
 import { Link } from "react-scroll";
 
 function Footer() {
@@ -15,7 +16,7 @@ function Footer() {
           <button className="btn btn-ghost text-gray-800 dark:text-white normal-case text-xl">G/A</button>
         </Link>
     
-    <p className="py-2 text-gray-800 dark:text-white sm:py-10">Hecho con ♥ por Giovanna Antonucci</p>
+    <p className="py-2 text-gray-800 dark:text-white sm:py-10"> <FormattedMessage id="footer" defaultMessage="Hecho con 💜 por Giovanna Antonucci" /></p>
 
     <div className="flex -mx-2">
     <div className="flex items-center mx-6">
