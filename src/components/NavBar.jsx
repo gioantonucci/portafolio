@@ -1,6 +1,7 @@
 import { Link } from "react-scroll";
 import { TbLanguage } from "react-icons/tb";
-import pdf from "../Utils/Giovanna_Antonucci-FullStack-ES.pdf"
+import pdfes from "../Utils/Giovanna_Antonucci-FullStack-ES.pdf"
+import pdfen from "../Utils/Giovanna_Antonucci-FullStack-EN.pdf"
 import { React, useContext, useEffect, useState } from "react";
 import { langContext } from "../Context/LangContext";
 import { FormattedMessage } from "react-intl";
@@ -170,7 +171,7 @@ function NavBar() {
         </ul>
         <button className="btn">
           <a
-            href={pdf}
+            href={lang.locale  === 'en-US' ? pdfen : pdfes}
             target="_blank"
             rel="noopener noreferrer"
             download="GIOVANNA_ANTONUCCI_CV_FULLSTACKWEB"

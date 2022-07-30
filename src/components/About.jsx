@@ -1,13 +1,14 @@
 import React, {useContext} from "react";
 import { FormattedMessage } from "react-intl";
 import Gio from "../images/Gio.png";
-import pdf from "../Utils/Giovanna_Antonucci-FullStack-ES.pdf"
+import pdfes from "../Utils/Giovanna_Antonucci-FullStack-ES.pdf"
+import pdfen from "../Utils/Giovanna_Antonucci-FullStack-EN.pdf"
 import { langContext } from "../Context/LangContext";
 
 function About() {
 
-  const idioma = useContext(langContext)
-  console.log(idioma.setLang)
+  const lang = useContext(langContext)
+
   return (
     <div className="z-auto hero min-h-screen font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
    
@@ -32,7 +33,7 @@ function About() {
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/giovanna-antonucci/"
-              ariaLabel="Linkden"
+              aria-label="Linkden"
             >
               <svg
                 className="w-10 h-10 text-gray-700 fill-current dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
@@ -48,7 +49,7 @@ function About() {
               target="_blank"
               rel="noopener noreferrer"
               href="https://github.com/gioantonucci"
-              ariaLabel="Github"
+              aria-label="Github"
             >
               <svg
                 className="w-10 h-10 text-gray-700 fill-current dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
@@ -60,7 +61,7 @@ function About() {
             </a>
             <button className="btn">
               <a
-                href={pdf}
+                href={lang.locale  === 'en-US' ? pdfen : pdfes}
                 target="_blank"
                 rel="noopener noreferrer"
                 download="GIOVANNA_ANTONUCCI_CV_FULLSTACKWEB"
