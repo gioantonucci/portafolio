@@ -13,7 +13,7 @@ function Header() {
         >
           Giovanna Antonucci.
         </h2>
-        <h1 className="text-white flex justify-center text-4xl "> {`<Full Stack Developer />`}</h1>
+        <h1 className="text-white xs:justify-start flex justify-center text-4xl "> {`<Full Stack Developer />`}</h1>
       </div>
     </section>
   );

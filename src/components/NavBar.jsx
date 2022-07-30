@@ -19,6 +19,7 @@ function NavBar() {
     }, 500);
   }, []);
 
+    
   return (
     <div className="navbar sticky top-0 z-50 font-Over bg-base-100">
       <div className="navbar-start">
