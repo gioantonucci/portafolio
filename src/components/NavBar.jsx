@@ -1,17 +1,17 @@
 import { Link } from "react-scroll";
 import { TbLanguage } from "react-icons/tb";
-import pdfes from "../Utils/Giovanna_Antonucci-FullStack-ES.pdf"
-import pdfen from "../Utils/Giovanna_Antonucci-FullStack-EN.pdf"
+import pdfes from "../Utils/Giovanna_Antonucci-FullStack-ES.pdf";
+import pdfen from "../Utils/Giovanna_Antonucci-FullStack-EN.pdf";
 import { React, useContext, useEffect, useState } from "react";
 import { langContext } from "../Context/LangContext";
 import { FormattedMessage } from "react-intl";
-import Loading from '../components/Loading.css'
+import Loading from "../components/Loading.css";
 
 function NavBar() {
   const lang = useContext(langContext);
-  
+
   const [loading, setLoading] = useState(false);
-  
+
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
@@ -115,8 +115,8 @@ function NavBar() {
           </li>
           <li className="nav-item">
             <Link
-              activeClass="active"
               to="contact"
+              activeClass="active"
               spy={true}
               smooth={true}
               duration={500}
@@ -129,7 +129,7 @@ function NavBar() {
       <div className="navbar-end">
         <ul className="menu mr-5 menu-horizontal p-0">
           <li tabIndex="0">
-            <a href="Language">
+            <div href="Language">
               <TbLanguage className="w-full h-full" />
               <svg
                 className="fill-current"
@@ -140,38 +140,25 @@ function NavBar() {
               >
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
-            </a>
+            </div>
             <ul className="p-2 bg-white">
-              <Link
-                activeClass="bordered"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <li className="nav-item" onClick={() => lang.setLang("en-US")}>
-                  <a href="Ingles">
-                    <FormattedMessage id="button.en" defaultMessage="Inglés" />
-                  </a>
-                </li>
-              </Link>
-              <Link
-                activeClass="bordered"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <li className="nav-item" onClick={() => lang.setLang("es-ES")}>
-                  <a href="Español">
-                    <FormattedMessage id="button.es" defaultMessage="Español" />
-                  </a>
-                </li>
-              </Link>
+              <li className="nav-item" onClick={() => lang.setLang("en-US")}>
+                <a href="Ingles">
+                  <FormattedMessage id="button.en" defaultMessage="Inglés" />
+                </a>
+              </li>
+
+              <li className="nav-item" onClick={() => lang.setLang("es-ES")}>
+                <a href="Español">
+                  <FormattedMessage id="button.es" defaultMessage="Español" />
+                </a>
+              </li>
             </ul>
           </li>
         </ul>
         <button className="btn">
           <a
-            href={lang.locale  === 'en-US' ? pdfen : pdfes}
+            href={lang.locale === "en-US" ? pdfen : pdfes}
             target="_blank"
             rel="noopener noreferrer"
             download="GIOVANNA_ANTONUCCI_CV_FULLSTACKWEB"
