@@ -10,16 +10,6 @@ import Loading from "../components/Loading.css";
 function NavBar() {
   const lang = useContext(langContext);
 
-  const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-  }, []);
-
-
     
   return (
     <div className="navbar sticky top-0 z-50 font-Over bg-base-100">
@@ -144,12 +134,13 @@ function NavBar() {
               </svg>
             </div>
             <ul className="p-2 bg-white">
+           
               <li className="nav-item" onClick={() => lang.setLang("en-US")}>
                 <a href="Ingles">
                   <FormattedMessage id="button.en" defaultMessage="Inglés" />
                 </a>
               </li>
-
+ 
               <li className="nav-item" onClick={() => lang.setLang("es-ES")}>
                 <a href="Español">
                   <FormattedMessage id="button.es" defaultMessage="Español" />
