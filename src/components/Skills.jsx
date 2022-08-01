@@ -8,12 +8,12 @@ import {
   DiPostgresql,
   DiReact,
 } from "react-icons/di";
-import { SiRedux, SiPostman, SiExpress, SiSequelize } from "react-icons/si";
+import { SiRedux, SiPostman, SiExpress, SiSequelize, SiTailwindcss } from "react-icons/si";
 import { FormattedMessage } from "react-intl";
 
 function Skills() {
   return (
-    <section className="h-screen font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
+    <section className=" font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
          <div className="lg:w-1/2 lg:mx-20 px-5 py-24 w-full lg:mb-0">
           <h1 className="text-4xl font-bold uppercase text-teal-50"> <FormattedMessage id="nav.skills" defaultMessage="SKILLS" /></h1>
           </div>
@@ -54,6 +54,9 @@ function Skills() {
             </div>
             <div className="flex justify-center tooltip tooltip-primary  w-1/2 p-6 align-middle md:w-1/3 xl:w-1/4" data-tip="Postman">
               <SiPostman className="hover:text-gray-600 w-12 h-12 fill-current md:mx-12 lg:m-0 text-gray-400"  />
+            </div>
+            <div className="flex justify-center tooltip tooltip-primary  w-1/2 p-6 align-middle md:w-1/3 xl:w-1/4" data-tip="Tailwind">
+              <SiTailwindcss className="hover:text-gray-600 w-12 h-12 fill-current md:mx-12 lg:m-0 text-gray-400"  />
             </div>
           </div>
         </div>
