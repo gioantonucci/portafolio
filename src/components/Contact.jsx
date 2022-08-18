@@ -45,8 +45,8 @@ function Contact() {
         </h1>
       </div>
 
-      <div className="container  px-5 py-5">
-        <div className="lg:w-1/3 md:w-1/2 bg-opacity-75 bg-white rounded-lg p-8 mx-auto w-full mt-10 md:mt-0 shadow-md">
+      <div className="px-5 py-5">
+        <div className="lg:w-1/3 md:w-1/2 bg-opacity-75 bg-white rounded-lg p-8 mx-auto w-full mt-10 md:mt-0 shadow-md flex-col justify-items-center">
           <p className="leading-relaxed mb-5 text-gray-600">
             <FormattedMessage
               id="contact"
@@ -57,7 +57,7 @@ function Contact() {
             <div className="relative mb-4">
               <label className="label-text">
                 <FormattedMessage id="label.name" defaultMessage="Tu nombre" />
-              </label>
+              </label><br/>
               <input
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -73,7 +73,7 @@ function Contact() {
             <div className="relative mb-4">
               <label className="label-text">
                 <FormattedMessage id="label.mail" defaultMessage="Tu mail" />
-              </label>
+              </label> <br/>
               <input
                 value={mail}
                 onChange={(e) => setMail(e.target.value)}
