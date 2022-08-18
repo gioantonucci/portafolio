@@ -16,6 +16,8 @@
     "description.gioflix": "Clon del menú principal Netflix. Desarrollado con JS, HTML, CSS y ReactJS.",
     "title.portfolio": "Portafolio",
     "description.portfolio":"Página personal dedicada a mostrar proyectos y skills. Desarrollado con JS, HTML, Tailwind, DaisyUI y ReactJS",
+    "title.avatar": "Juego de Avatar",
+    "description.avatar":"Juego interactivo del estilo piedra, papel o tijera. Realizado para reforzar conocimientos y buenas prácticas. Desarrollado con JS, HTML y CSS.",
     "title.contact": "Contacto",
     "contact":"Cualquier duda, devolución o propuesta podés hacerla desde acá 💜",
     "label.name": "Tu nombre",

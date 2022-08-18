@@ -16,6 +16,8 @@
     "description.gioflix": "Netflix's menu clon. Made with JS, HTML, CSS and ReactJS.",
     "title.portfolio": "Portfolio",
     "description.portfolio":"Personal page made to show projects and skills. Made with JS, HTML, Tailwind, DaisyUI and ReactJS.",
+    "title.avatar": "Avatar Game",
+    "description.avatar":"Rock-Paper-Scissors style game. Made with JS, HTML and CSS",
     "title.contact": "Contact",
     "contact":"Any doubt, feedback or proposal you can left in here💜",
     "label.name": "Your name",
