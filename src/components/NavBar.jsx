@@ -2,10 +2,10 @@ import { Link } from "react-scroll";
 import { TbLanguage } from "react-icons/tb";
 import pdfes from "../Utils/Giovanna_Antonucci-FullStack-ES.pdf";
 import pdfen from "../Utils/Giovanna_Antonucci-FullStack-EN.pdf";
-import { React, useContext, useEffect, useState } from "react";
+import { React, useContext } from "react";
 import { langContext } from "../Context/LangContext";
 import { FormattedMessage } from "react-intl";
-import Loading from "../components/Loading.css";
+
 
 function NavBar() {
   const lang = useContext(langContext);
