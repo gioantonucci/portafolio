@@ -38,7 +38,7 @@ function Contact() {
   };
 
   return (
-    <section className="z-50 font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
+    <section className="z-50 font-Rubik bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
       <div className="px-5 py-24 mx-auto">
         <h1 className="text-4xl font-bold uppercase lg:ml-20 text-white">
           <FormattedMessage id="title.contact" defaultMessage="CONTACTO" />

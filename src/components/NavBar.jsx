@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 import { TbLanguage } from "react-icons/tb";
-import pdfes from "../Utils/Giovanna_Antonucci-FullStack-ES.pdf";
-import pdfen from "../Utils/Giovanna_Antonucci-FullStack-EN.pdf";
+import pdfes from "../Utils/Giovanna_Antonucci-Desarrolladora_web_JR.pdf";
+import pdfen from "../Utils/Giovanna_Antonucci-Junior_Web_Developer.pdf";
 import { React, useContext } from "react";
 import { langContext } from "../Context/LangContext";
 import { FormattedMessage } from "react-intl";
@@ -12,7 +12,7 @@ function NavBar() {
 
     
   return (
-    <div className="navbar sticky top-0 z-50 font-Over bg-base-100">
+    <div className="navbar sticky top-0 z-50 font-Rubik bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex="0" className="btn btn-ghost lg:hidden">

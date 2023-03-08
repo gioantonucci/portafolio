@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { Element } from "react-scroll";
 import React from "react";
-
+import '../src/App.css'
 function App() {
   return (
     <div>

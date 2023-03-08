@@ -8,8 +8,8 @@ import { FormattedMessage } from "react-intl";
 
 function Projects() {
   return (
-    <section className="font-Over  bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
-      <div className="conteiner lg:mx-20 px-5 py-24">
+    <section className="font-Rubik  bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
+      <div className="container lg:mx-20 px-5 py-24">
         <div className="flex flex-wrap w-full mb-10">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
             <h1 className="text-4xl font-bold uppercase mb-12 text-teal-50">

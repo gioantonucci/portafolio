@@ -13,7 +13,7 @@ import { FormattedMessage } from "react-intl";
 
 function Skills() {
   return (
-    <section className=" font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
+    <section className=" font-Rubik bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
          <div className="lg:w-1/2 lg:mx-20 px-5 py-24 w-full lg:mb-0">
           <h1 className="text-4xl font-bold uppercase text-teal-50"> <FormattedMessage id="nav.skills" defaultMessage="SKILLS" /></h1>
           </div>

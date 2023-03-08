@@ -1,8 +1,8 @@
 import React, {useContext} from "react";
 import { FormattedMessage } from "react-intl";
 import Gio from "../images/Gio.png";
-import pdfes from "../Utils/Giovanna_Antonucci-FullStack-ES.pdf"
-import pdfen from "../Utils/Giovanna_Antonucci-FullStack-EN.pdf"
+import pdfes from "../Utils/Giovanna_Antonucci-Desarrolladora_web_JR.pdf";
+import pdfen from "../Utils/Giovanna_Antonucci-Junior_Web_Developer.pdf";
 import { langContext } from "../Context/LangContext";
 
 function About() {
@@ -10,7 +10,7 @@ function About() {
   const lang = useContext(langContext)
 
   return (
-    <div className="z-auto hero min-h-screen font-Over bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
+    <div className="z-auto hero min-h-screen font-Rubik bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
    
      <div className="hero-content flex-col lg:flex-row">
         <img src={Gio} alt="Just me" className="max-w-xs rounded-lg shadow-2xl" />
@@ -23,7 +23,7 @@ function About() {
           <p className="py-10">
           <FormattedMessage
           id="about.about"
-          defaultMessage="Hola! Soy Giovanna. Estudié 3 años de Diseño en Comunicación Visual por lo que tengo una fuerte base de diseño, hasta que me encontré con la programación y en ella descubrí una fusión de lógica y diseño: dos cosas que me apasionan. Luego de mucho esfuerzo, me recibí de Full Stack Web Developer en Henry Bootcamp este año."
+          defaultMessage="¡Hola! Mi nombre es Giovanna y soy desarrolladora web. Actualmente me encuentro formándome en diseño UX, ya que creo que es fundamental para crear productos digitales que sean atractivos y fáciles de usar. Soy una persona muy versátil y me adapto rápidamente a cualquier situación. Estoy siempre dispuesta a aprender nuevas tecnologías si es necesario para algún proyecto. Además de mi carrera como desarrolladora, también tengo un emprendimiento que me ha enseñado a ser muy organizada y he desarrollado habilidades de comunicación y atención al cliente, así como la capacidad de gestionar múltiples tareas y responsabilidades. También soy hábil en la resolución de problemas y la toma de decisiones, y tengo un ojo agudo para el detalle."
           />
             
           </p>

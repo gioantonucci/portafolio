@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 function Footer() {
   return (
     
-    <footer className="z-50 font-Over  flex flex-col items-center justify-between px-6 py-4 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 sm:flex-row">
+    <footer className="z-50 font-Rubik  flex flex-col items-center justify-between px-6 py-4 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 sm:flex-row">
     <Link
           activeClass="active"
           to="header"

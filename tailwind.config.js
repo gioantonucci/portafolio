@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       fontFamily: {
         Over: ['Overpass Mono', 'monospace'],
-        Inter: ['Inter', 'sans-serif']
+        Inter: ['Inter', 'sans-serif'],
+        Rubik: ['Rubik', 'sans-serif']
       },
       
     },
