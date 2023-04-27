@@ -10,16 +10,16 @@ function About() {
   const lang = useContext(langContext)
 
   return (
-    <div className="z-auto hero min-h-screen font-Rubik bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
-   
-     <div className="hero-content flex-col lg:flex-row">
-        <img src={Gio} alt="Just me" className="max-w-xs rounded-lg shadow-2xl" />
-        <div>
-          <h1 className="text-4xl font-bold uppercase text-white">
+    <section className="z-auto hero min-h-screen font-Rubik bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
+     <div className="hero-content flex-col lg:flex-row ">
+        <div >
+          <h1 className="text-4xl font-bold mb-10 uppercase text-white">
             <FormattedMessage
           id="about.title"
           defaultMessage="SOBRE MI"
           /></h1>
+          <div></div>
+          <img src={Gio} alt="Just me" className="max-w-xs rounded-lg shadow-2xl" />
           <p className="py-10">
           <FormattedMessage
           id="about.about"
@@ -75,7 +75,7 @@ function About() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
  
   );
 }
