@@ -26,7 +26,7 @@ module.exports = {
     darkTheme: "dark",
   },
    screens: {
-    'sm': {'min': '640px', 'max': '767px'},
+    'sm': {'min': '300x', 'max': '767px'},
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',

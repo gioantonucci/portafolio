@@ -6,7 +6,7 @@ function Header() {
      <div className="container">
       <div className="grid place-items-center">
         <h2
-          className=" bg-cover xl:text-7xl sm:text-4xl bg-clip-text bg-center uppercase text-transparent font-extrabold tracking-wide antialiased"
+          className=" bg-cover lg:text-7xl text-3xl md:text-6xl sm:text-4xl bg-clip-text bg-center uppercase text-transparent font-extrabold tracking-wide antialiased"
           style={{
             backgroundImage:
               "url(https://c.tenor.com/z_2DoGAqxpcAAAAC/ocean.gif)",
@@ -14,7 +14,7 @@ function Header() {
         >
           Giovanna Antonucci.
         </h2>
-        <h1 className="text-white flex justify-center lg:text-4xl "> {`<Desarrolladora Web />`}</h1>
+        <h1 className="text-white flex justify-center lg:text-4xl sm:text-3xl"> {`<Desarrolladora Web />`}</h1>
       </div></div>
     </section>
   );
