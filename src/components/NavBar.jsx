@@ -120,8 +120,8 @@ function NavBar() {
       </div>
       <div className="navbar-end">
         <ul className="menu mr-5 menu-horizontal p-0">
-          <li tabIndex="0">
-            <div href="Language">
+          <li tabIndex="0" >
+            <div href="Language" className="" >
               <TbLanguage className="w-full h-full" />
               <svg
                 className="fill-current"
