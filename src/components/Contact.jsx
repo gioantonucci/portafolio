@@ -54,7 +54,7 @@ function Contact() {
             />
           </p>
           <form onSubmit={sendEmail}>
-            <div className="relative mb-4">
+            <div className="relative mb-6">
               <label className="label-text">
                 <FormattedMessage id="label.name" defaultMessage="Tu nombre" />
               </label><br/>
@@ -70,7 +70,7 @@ function Contact() {
                 required
               ></input>
             </div>
-            <div className="relative mb-4">
+            <div className="relative mb-6">
               <label className="label-text">
                 <FormattedMessage id="label.mail" defaultMessage="Tu mail" />
               </label> <br/>
